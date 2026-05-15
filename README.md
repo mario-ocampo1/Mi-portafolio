@@ -21,6 +21,8 @@
 ### Desarrollo y Frameworks
 ![Next.js 15](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-Motor_de_Plantillas-B4CA65?style=flat-square)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -32,6 +34,7 @@
 ![Arquitectura Monorepo](https://img.shields.io/badge/Arquitectura-Monorepo-blue?style=flat-square)
 
 ### Datos y Seguridad
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL 15](https://img.shields.io/badge/PostgreSQL%2015-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Supabase (RLS)](https://img.shields.io/badge/Supabase%20(RLS)-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![pgvector IA](https://img.shields.io/badge/pgvector-IA-blue?style=flat-square)
@@ -54,6 +57,16 @@
 *   **Datos**: PostgreSQL 15 (Supabase) con **pgvector** y políticas de seguridad a nivel de fila (**RLS**).
 *   **Infraestructura**: Despliegue en **Kubernetes (EKS)** gestionado mediante Infraestructura como Código (IaC) con **AWS CDK**.
 *   **Monitoreo**: Visibilidad completa con CloudWatch, X-Ray, Prometheus y Grafana Cloud.
+
+### [Server Joval](https://github.com/MarioOcampo1/server-joval)
+**Sistema integral de administración para empresas contratistas de Ecogas.**
+
+*   **Propósito**: Gestión eficiente de flujos de trabajo, finanzas y logística operativa.
+*   **Módulos Clave**: 
+    *   **Administración Ecogas**: Gestión de procesos bajo normativa y requerimientos técnicos específicos.
+    *   **Finanzas**: Control de cobros, pagos de obras y seguimiento de cuotas con soporte extendido (18 cuotas).
+    *   **Galpón e Inventario**: Control de logística de materiales y stock.
+*   **Tecnologías**: Node.js, Express, EJS y MySQL. Implementación de librerías para gestión de datos masivos (ExcelJS, JSZip).
 
 ---
 
