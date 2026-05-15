@@ -4,8 +4,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mario-ocampo1/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarioOcampo1)
 
-**🌐 [Ver Portafolio en Vivo](https://mario-ocampo1.github.io/Mi-portafolio/)**
-
 ¡Hola! Soy un **Técnico Superior en Programación** con amplia experiencia en el desarrollo integral (Full Stack) de aplicaciones complejas. Mi trayectoria me ha permitido evolucionar desde entornos tradicionales hacia arquitecturas modernas nativas de la nube y sistemas distribuidos.
 
 ---
@@ -23,8 +21,6 @@
 ### Desarrollo y Frameworks
 ![Next.js 15](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![EJS](https://img.shields.io/badge/EJS-Motor_de_Plantillas-B4CA65?style=flat-square)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -75,7 +71,7 @@
 ## 🎓 Educación y Certificaciones
 
 *   **Técnico Superior en Programación** - TecLab (2024).
-*   **Certificación en .NET 6.0**.
+*   **Certificación en .NET 6.0** - Polo tecnologico Mina Clavero.
 *   **Desarrollo Web** - Google Actívate & Mina Clavero Technology Hub.
 
 ---
