@@ -125,19 +125,15 @@ input, select, textarea {
 	}
 
 		@media screen and (max-width: 1680px) {
-
-			body, input, select, textarea {
-				font-size: 14pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+		}
 
+		@media screen and (max-width: 1280px) {
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
 		}
 
 		@media screen and (max-width: 360px) {
@@ -193,11 +189,11 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.2em;
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.6em;
 	}
 
 	h3 {
@@ -2723,6 +2719,10 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
+		justify-content: center;
+		width: calc(100% - 6em);
+		max-width: 55em;
+		margin: 0 auto;
 	}
 
 		.tiles + * {
@@ -2750,8 +2750,8 @@ input, select, textarea {
 			height: 30vh;
 			max-height: 30em;
 			min-height: 20em;
-			width: calc(50% - 1em);
-			margin: 0.5em;
+			width: calc(50% - 1em) !important;
+			margin: 0.5em !important;
 			border-radius: 16px;
 			overflow: hidden;
 			position: relative;
@@ -2829,7 +2829,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: calc(50% - 1em) !important;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
@@ -2943,7 +2943,9 @@ input, select, textarea {
 			background-color: #2e3450;
 			border-radius: 12px;
 			overflow: hidden;
-			margin-bottom: 2em;
+			margin: 0 auto 2em auto;
+			width: 90%;
+			max-width: none;
 			border: 1px solid rgba(255, 255, 255, 0.05);
 			transition: transform 0.3s ease, box-shadow 0.3s ease;
 		}
@@ -2954,14 +2956,23 @@ input, select, textarea {
 				border-color: rgba(255, 255, 255, 0.1);
 			}
 
-			.spotlights > section > .image {
+			.spotlights > section > .image,
+			.spotlights > section > .video {
 				background-position: center center;
 				background-size: cover;
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 50%;
+				flex: 0 0 50%;
 			}
+
+				.spotlights > section > .video video {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+				}
 
 				.spotlights > section > .image img {
 					border-radius: 0;
@@ -2999,13 +3010,12 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				width: 50%;
 			}
 
 				.spotlights > section > .content > .inner {
 					margin: 0 auto;
 					max-width: 100%;
-					width: 65em;
 				}
 
 			.spotlights > section:nth-child(2n) {
@@ -3051,6 +3061,7 @@ input, select, textarea {
 
 			.spotlights > section {
 				display: block;
+				width: 100%;
 			}
 
 				.spotlights > section > .image {
@@ -3616,7 +3627,7 @@ input, select, textarea {
 			#main > * > .inner {
 				padding: 2.5em 0 1.5em 0 ;
 				margin: 0 auto;
-				max-width: 60em;
+				max-width: 55em;
 				width: calc(100% - 6em);
 			}
 
@@ -3634,6 +3645,12 @@ input, select, textarea {
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		}
 
+			#main.alt > * > .inner {
+				width: 90%;
+				max-width: none;
+			}
+
+
 /* Contact */
 
 	#contact {
@@ -3650,14 +3667,17 @@ input, select, textarea {
 		}
 
 			#contact > .inner > :nth-child(2n - 1) {
-				padding: 4em 3em 2em 0 ;
+				padding: 2.5em 3em 1.5em 0 ;
 				border-right: solid 1px rgba(212, 212, 255, 0.1);
-				width: 60%;
+				width: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
 			}
 
 			#contact > .inner > :nth-child(2n) {
 				padding-left: 3em;
-				width: 40%;
+				width: 50%;
 			}
 
 			#contact > .inner > .split {
@@ -3726,6 +3746,20 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
+		#footer > .inner {
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		#footer .icons {
+			margin-bottom: 1.5em;
+		}
+
+		#footer .copyright {
+			border-top: solid 1px rgba(212, 212, 255, 0.1);
+			padding-top: 1.5em;
+		}
+
 		#footer .copyright li {
 			border-left: solid 1px rgba(212, 212, 255, 0.1);
 			color: rgba(244, 244, 255, 0.2);
@@ -3768,9 +3802,9 @@ input, select, textarea {
 		}
 
 		#wrapper > * > .inner {
-			padding: 4em 0 2em 0 ;
+			padding: 2.5em 0 1.5em 0 ;
 			margin: 0 auto;
-			max-width: 65em;
+			max-width: 55em;
 			width: calc(100% - 6em);
 		}
 
